@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#general{
+    width: 100%;
+    height: 610px;
+    position: relative;
+    overflow: hidden;
+}
+#thunder{
+    width: 100%;
+    height: 100%;
+    background-image: url('İmage/news-1615363397270-48941.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+
+}
+#HTML{
+    width: 400px;
+    height: 400px;
+    background-image: url('İmage/640px-HTML5_logo_and_wordmark.svg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+position: absolute;
+top: 50%;
+left: -410px;
+transform: translate(0,-50%);
+animation-name: html;
+animation-duration: 4s;
+/* animation-iteration-count: infinite; */
+animation-fill-mode: forwards;
+}
+
+@keyframes html {
+from{
+    left: -410px;
+}
+to{
+    left: 60px;
+}
+}
+/* 40pxleft */
+#CSS{
+    width: 400px;
+    height: 400px;
+    background-image: url('İmage/CSS3_logo_and_wordmark.svg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+position: absolute;
+bottom: 50%;
+right: -450px;
+transform: translate(0,50%);
+animation-name: css;
+animation-duration: 4s;
+/* animation-delay: 2s; */
+animation-fill-mode: forwards;
+
+}
+@keyframes css{
+    from{
+        right: -450px;
+    }
+    to{
+        right: 40px;
+
+    }
+}
+#vin{
+    width: 100px;
+    height: 100px;
+    background-image: url('İmage/445087.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+position: absolute;
+top: -600px;
+left: 40px;
+transform: translate(0,50%);
+animation-name: win;
+animation-duration: 4s;
+animation-delay: 2s;
+animation-fill-mode: forwards;
+
+}
+@keyframes win {
+    from{
+        top: -600px;
+    }
+    to{
+        top: 20px;
+    }
+}
+#lose{
+    width: 100px;
+    height: 100px;
+    background-image: url('İmage/4372343.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+position: absolute;
+top: -600px;
+right: 20px;
+transform: translate(0,50%);
+animation-name: lose;
+animation-duration: 4s;
+animation-delay: 2s;
+animation-fill-mode: forwards;
+
+}
+@keyframes lose {
+    from{
+        top: -600px;
+    }
+    to{
+        top: 20px;
+        right: 20px;
+    }
+}
+#applaus{
+    width: 200px;
+    height: 100px;
+    background-image: url('İmage/221450-200.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+position: absolute;
+bottom: -450px;
+left: 50px;
+transform: translate(0,50%);
+animation-name: appla;
+animation-duration: 4s;
+/* animation-delay: 2s; */
+animation-fill-mode: inherit;
+
+}
+@keyframes appla{
+    from{
+        bottom: -450px;
+    }
+    to{
+        bottom: 200px;
+
+    }}
